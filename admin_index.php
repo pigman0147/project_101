@@ -26,9 +26,9 @@ if (!isset($_SESSION['username'])) {
         <h2>เมนูหลัก<br>Main Menu</h2>
       </div>
       <ul>
-        <li><a href="#">ทำรายงานการประเมินและกิจกรรม</a></li>
+        <li><a href="form_builde.html">ทำรายงานการประเมินและกิจกรรม</a></li>
         <li><a href="#">จัดการบัญชี</a></li>
-        <li><a href="#">แดชบอร์ด</a></li>
+        <li><a href="from">แดชบอร์ด</a></li>
         <form action="login_db.php" method="POST">
         <li><a href="login.php" name="logout">ออกจากระบบ</a></li>
         </form>
